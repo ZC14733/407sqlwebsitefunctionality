@@ -1,0 +1,289 @@
+body {
+    background-color: #D9D9D9 !important;
+}
+
+/* Navbar background color */
+.navbar-dark {
+    background-color: #ec9e00; 
+}
+
+/* Default nav link color */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #ffffff;
+}
+
+/* Hover effect on nav links */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: DodgerBlue;
+    background-color: #976500;
+}
+
+.custom-border {
+    border-right: 2px solid #934900;
+}
+
+.currentpage {
+    background-color: #976500;
+}
+
+.adaptive-nav-button {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+}
+
+
+.adaptive-nav-button .nav-link:hover {
+    background-color: rgb(15, 60, 105) !important;
+    border-radius: 10px !important;
+    color: rgb(111, 108, 255) !important;
+}
+
+
+.empty-navbar {
+    all: unset;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #ec9e00;
+}
+
+.headers {
+    text-align: left;
+}
+
+.dashboard-container {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.dashboard-image {
+    width: 70%;
+    height: 70%;
+    border-radius: 30px;
+    border: 2px solid #ccc;
+}
+
+.form {
+    background: var(--var-sds-color-background-default-default, #ffffff);
+    border-radius: var(--var-sds-size-radius-200, 8px);
+    border-style: solid;
+    border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+    border-width: 1px;
+    padding: var(--var-sds-size-space-600, 24px);
+    display: flex;
+    flex-direction: column;
+    gap: var(--var-sds-size-space-600, 24px);
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 316px;
+    min-width: 320px;
+    position: relative;
+}
+
+.form-labels {
+    display: flex;
+    flex-direction: column;
+    gap: var(--var-sds-size-space-200, 8px);
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+.label {
+    color: var(--var-sds-color-text-default-default, #1e1e1e);
+    text-align: left;
+    font-family: var(--body-base-font-family, "Inter-Regular", sans-serif);
+    font-size: var(--body-base-font-size, 16px);
+    line-height: var(--body-base-line-height, 140%);
+    font-weight: var(--body-base-font-weight, 400);
+    position: relative;
+    align-self: stretch;
+  }
+
+.input {
+    background: var(--var-sds-color-background-default-default, #ffffff);
+    border-radius: var(--var-sds-size-radius-200, 8px);
+    border-style: solid;
+    border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+    border-width: 1px;
+    padding: var(--var-sds-size-space-300, 12px)
+      var(--var-sds-size-space-400, 16px) var(--var-sds-size-space-300, 12px)
+      var(--var-sds-size-space-400, 16px);
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    min-width: 240px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .value {
+    color: var(--var-sds-color-text-default-tertiary, #b3b3b3);
+    text-align: left;
+    font-family: var(
+      --single-line-body-base-font-family,
+      "Inter-Regular",
+      sans-serif
+    );
+    font-size: var(--single-line-body-base-font-size, 16px);
+    line-height: var(--single-line-body-base-line-height, 100%);
+    font-weight: var(--single-line-body-base-font-weight, 400);
+    position: relative;
+    flex: 1;
+  }
+
+  .login-box,
+  .login-box * {
+    box-sizing: border-box;
+  }
+
+  .login-box {
+    background: #ffffff;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    height: 450px;
+    width: 600px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .btn-custom {
+    padding: 12px 24px;
+    background-color: #ec9e00 !important;
+  }
+
+  .btn-custom2 {
+    padding: 12px 24px;
+    background-color: #6AA3DD !important;
+  }
+
+  .ss-images,
+  .ss-images * {
+    box-sizing: border-box;
+  }
+  .ss-images {
+    border-radius: 20px;
+    height: 221px;
+    position: relative;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+  
+.custom-bg {
+    background-color: #ffc93321;
+    padding: 0 15px; 
+}
+
+.custom-row {
+    background-color: #ffc93321;
+    padding: 0 15px;
+}
+
+.loyalty-text {
+    color: #663399; /* Dark purple color */
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+.reward-text, .shoe-text {
+    color: #663399; /* Dark gray color */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.custom-bg2 {
+    background-color: #ffffff; /* Light yellow background */
+    padding: 15px;
+}
+
+.purchase-text {
+    color: #663399; /* Dark gray color */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.object {
+    background-color: #f7e6b7; /* Light yellow background */
+    border-radius: 10px; 
+    color: #4a4a4a; /* Dark gray text */
+    font-size: 14px; 
+    width: 200px;
+    height: 40px; 
+    text-align: center; 
+    margin-bottom: 5px; 
+
+    padding: 8px 12px; 
+    box-sizing: border-box; 
+}
+
+.image-pair {
+    width: 23%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+.filter-form {
+    background-color: #cfcfcf;
+    border-radius: 5px;
+    border: 2px solid #e3dede;
+    padding: 20px;
+    height: 777px;
+}
+
+.filter-form h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.filter-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.filter-form input {
+    width: 66px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.filter-form select {
+    width: 66px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.filter-form button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-form .cancel {
+    background-color: transparent;
+    color: #6495ed;
+}
+  
+

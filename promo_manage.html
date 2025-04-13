@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vars.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <body>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container">
+                <a class="navbar-brand" href="#" style="color:rgb(15, 60, 105)">Road Runner Sports</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item custom-border"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    <li class="nav-item custom-border"><a class="nav-link" href="customer_profile.html">Customer Profiles</a></li>
+                    <li class="nav-item custom-border"><a class="nav-link" href="product_info.html">Product Information</a></li>
+                    <li class="nav-item custom-border"><a class="nav-link" href="promo_dashboard.html">Promotion Dashboard</a></li>
+                    <li class="nav-item custom-border currentpage"><a class="nav-link" href="promo_manage.html">Promotion Management</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Log Out</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+    <!-- Headers -->
+            <div class="container mt-1">
+                <div class="row">
+                    <div class="col-md-8 d-flex justify-content-start">
+                        <h2 class="headers" style="text-align: center">Promotion Status View</h2>
+                        </div>
+    <!-- Buttons -->
+
+        <div class="container mt-2">
+            <div class="row">
+        
+            <div class="d-flex justify-content-between mb-4">
+              <a href="promo_metrics.html" class="btn btn-custom2">View Promotion Metrics</a>
+              <a href="create_promo.html" class="btn btn-custom">Create Promotion + </a>
+            </div>
+
+    <!-- Promotion Tables for Employee and Manager -->
+            <h4>Active Promotions</h4>
+            <table class="table table-striped table-bordered mb-4">
+              <thead>
+                <tr>
+                  <th>Dates</th>
+                  <th>Promo Name</th>
+                  <th>Promotion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>3/18/2025 - 3/20/2025</td>
+                  <td>Local High School Sale</td>
+                  <td>High school Track team 10% off</td>
+                </tr>
+                <tr>
+                  <td>3/18/2025 - 3/20/2025</td>
+                  <td>Easter Sale</td>
+                  <td>Easter Weekend 10% off</td>
+                </tr>
+                    <td>3/24/2025 - 3/31/2025</td>
+                    <td>Members-Only Marathon Week</td>
+                    <td>15% off clearance items</td>
+              </tbody>
+            </table>
+      
+            <h4>Upcoming Promotions</h4>
+            <table class="table table-striped table-bordered mb-4">
+              <thead>
+                <tr>
+                  <th>Dates</th>
+                  <th>Promo Name</th>
+                  <th>Promotion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>11/30/2025 - 11/30/2025</td>
+                  <td>Cyber Monday Sale</td>
+                  <td>Cyber Monday 20% off shoes</td>
+                </tr>
+                <tr>
+                  <td>12/1/2025 - 12/24/2025</td>
+                  <td>Christmas Season Sale</td>
+                  <td>Christmas Deals entire store 15% off</td>
+                </tr>
+                <tr>
+                    <td>3/25/2025 - 4/10/2025</td>
+                    <td>Spring Sprint Sale</td>
+                    <td>20% off all shoes</td>
+                </tr>
+              </tbody>
+            </table>
+      
+            <h4>Past Promotions</h4>
+            <table class="table table-striped table-bordered mb-4">
+              <thead>
+                <tr>
+                  <th>Dates</th>
+                  <th>Promo Name</th>
+                  <th>Promotion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1/20/2025 - 1/20/2025</td>
+                  <td>MLK day sale</td>
+                  <td>MLK day sale 10% off shoes, 20% off socks</td>
+                </tr>
+                <tr>
+                    <td>3/28/2025 - 3/28/2025</td>
+                    <td>Flash Friday Deal</td>
+                    <td>Buy 1, Get 1 50% off on all apparel</td>
+                </tr>
+                    <td>4/1/2025 - 4/15/2025</td>
+                    <td>Gear Up for Summer Promo</td>
+                    <td>Free Water Bottle for Purchases Over $100</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>
+</body>
+</head>
+</html>
